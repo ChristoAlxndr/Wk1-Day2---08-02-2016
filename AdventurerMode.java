@@ -67,4 +67,46 @@ public class AdventurerMode {
 
 	}
 
+	public String sportsBall() {
+		return ("Play Ball");
+	}
+
+	private String cats() {
+		return ("Here kitty, kitty, kitty.");
+	}
+
+	public boolean yesNo() {
+		return (true);
+	}
+
+	public void cat(String ourCatName) {
+		System.out.println(ourCatName);
+	}
+
+	private void stuffNThings(int a, float b, double c, String abc) {
+		System.out.println(abc);
+	}
+	
+	public void smog(String citiesWithSmog) {
+		for (int i = 0; i < 10; i++) {
+			System.out.print(citiesWithSmog[i]);
+		}
+	}
+	
+	private int day() {
+		return 7;
+	}
+	
+	public static void Berry() {
+		System.out.println("Fruit");
+	}
+	
+	public boolean gotToGetThemAll() {
+		return false;
+	}
+	
+	private String bootCampers(String roster) {
+		return ("Class Of");
+	}
+	
 }
